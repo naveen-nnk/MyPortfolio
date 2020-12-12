@@ -1,0 +1,1023 @@
+@font-face {
+  font-family: 'Majalla';
+  src: url('../fonts/majalla-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/majalla-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/majalla-webfont.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/majalla-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/majalla-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Berlin';
+  src: url('../fonts/brlnsr.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/brlnsr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/brlnsr.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/brlnsr.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/brlnsr.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+.mainicon
+{
+	cursor:none;
+}
+
+@media screen and (max-width: 1024px) {
+.PortfolioRect
+{
+	position:absolute;
+	display:block;
+	width:150px;
+	height:150px;
+	background-color:#77EAA8;
+	z-index:97;
+}
+.PortfolioRect#web
+{
+	margin-top:80px;
+}
+.PortfolioRect#logo
+{
+	background-color:#99ccff;
+	margin-top:270px;
+}
+.PortfolioRect#book
+{
+	margin-top:80px;
+}
+.PortfolioRect#banner
+{
+	background-color:#99ccff;
+	margin-top:270px;
+}
+.PortfolioRect#others
+{
+	background-color:#ff6666;
+	width:330px;
+	height:70px;
+}
+.portfolioCircles
+{
+	position:absolute;
+	display:block;
+	width:120px;
+	height:150px;
+	z-index:95;
+	background-color: #dedede;
+	background-repeat: repeat-x;
+		 
+    /* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#dedede));
+	
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #ffffff, #dedede);
+	
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #ffffff, #dedede);
+	
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #ffffff, #dedede);
+	
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #ffffff, #dedede);
+}
+.portfolioCircles#webC
+{
+	border-radius:0px 115px 115px 0px;
+	margin-top:80px;
+}
+.portfolioCircles#logoC
+{
+	border-radius:115px 0px 0px 115px;
+	margin-top:270px;
+}
+.portfolioCircles#bookC
+{
+	border-radius:115px 0px 0px 115px;
+	margin-top:80px;
+}
+.portfolioCircles#bannerC
+{
+	border-radius:0px 115px 115px 0px;
+	margin-top:270px;
+}
+.portfolioCircles#othersC
+{
+	border-radius:375px 375px 0px 0px;
+	width:330px;
+	height:70px;
+}
+#displayImage
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:90px;
+	background-image:url(../images/greaterthan900px/thumbnail/web_airfares.jpg);
+	background-size:303px 303px;
+	background-repeat:no-repeat;
+	width:300px;
+	height:300px;
+	border:3px solid #CCCCCC;
+}
+.portfolioText
+{
+	cursor:pointer;
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:25px;
+	color:#333333;
+	position:absolute;
+	z-index:99;
+}
+.portfolioText.web
+{
+	top:143px;
+}
+.portfolioText.logo
+{
+	top:330px;
+}
+#topMargin
+{
+  z-index:51;
+  left:0 !important;
+  right:0 !important;
+  top:50px !important;
+  position:absolute;
+  width:100%;
+  height:25px;
+	 /* fallback */
+  background-color: #1a82f7;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdddd), to(#969494));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #dfdddd, #969494);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #dfdddd, #969494);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #dfdddd, #969494);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #dfdddd, #969494);
+}
+#PmidContent
+{
+  z-index:50;
+  top:0 !important;
+  left:0 !important;
+  right:0 !important;
+  position:absolute;
+  width:100%;
+  height:100%;
+  /* fallback */
+  background-color:#333333;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, right, left, from(#080809), color-stop(0.62, #242424),color-stop(0.85, #2f2e2e ),to(#2f2e2e ));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* IE 10 */
+  background: -ms-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+}
+.mainicon
+{
+	position:absolute;
+	top:calc(50% - 55px);
+	top:-webkit-calc(50% - 55px);
+	top:-moz-calc(50% - 55px);
+	right:calc(50% - 220px);
+	right:-webkit-calc(50% - 220px);
+	right:-moz-calc(50% - 220px);
+	width:210px;
+	height:210px;
+}
+.picons:hover
+{
+	cursor:pointer;
+}
+.subicon1
+{
+	position:absolute;
+	top:calc(50% - 225px);
+	top:-webkit-calc(50% - 225px);
+	top:calc(50% - 225px);
+	right:calc(50% - 255px);
+	right:-webkit-calc(50% - 255px);
+	right:-moz-calc(50% - 255px);
+	width:155px;
+	height:155px;
+}
+.subicon2
+{
+	position:absolute;
+	top:calc(50% - 155px);
+	top:-webkit-calc(50% - 155px);
+	top:-moz-calc(50% - 155px);
+	right:calc(50% - 410px);
+	right:-webkit-calc(50% - 410px);
+	right:-moz-calc(50% - 410px);
+	width:165px;
+	height:165px;
+}
+.subicon3
+{
+	position:absolute;
+	top:calc(50% + 10px);
+	top:-webkit-calc(50% + 10px);
+	top:-moz-calc(50% + 10px);
+	right:calc(50% - 420px);
+	right:-webkit-calc(50% - 420px);
+	right:-moz-calc(50% - 420px);
+	width:175px;
+	height:175px;
+}
+.subicon4
+{
+	position:absolute;
+	top:calc(50% + 115px);
+	top:-webkit-calc(50% + 115px);
+	top:-moz-calc(50% + 115px);
+	right:calc(50% - 295px);
+	right:-webkit-calc(50% - 295px);
+	right:-moz-calc(50% - 295px);
+	width:185px;
+	height:185px;
+}
+.buttoncontainer
+{
+	position:absolute;
+	top:calc(50% - 205px);
+	top:-webkit-calc(50% - 205px);
+	top:-moz-calc(50% - 205px);
+	right:calc(50% + 115px);
+	right:-webkit-calc(50% + 115px);
+	right:-moz-calc(50% + 115px);
+	width:275px;
+	height:265px;
+}
+.pbuttons,.lpbuttons,.apbuttons,.obuttons,.bbuttons
+{
+	background:url(../images/greaterthan900px/portfoliobutton.png);
+	display:inline-block;
+	float:left;
+	background-size:35px 35px;
+	margin-left:7px;
+	margin-top:7px;
+	border:2px solid #2f2e2e; 
+	cursor:pointer;
+	color:#FFFFFF;
+	width:35px;
+	height:35px;
+}
+.pbuttons span,.lpbuttons span,.apbuttons span,.obuttons span,.bbuttons span
+{
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:20px;
+	display:inline-block;
+	margin-left:14px;
+	margin-top:6px;
+}
+.pbuttons.twodigit span,.lpbuttons.twodigit span,.apbuttons.twodigit span,.obuttons.twodigit span,.bbuttons.twodigit span
+{
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:20px;
+	display:inline-block;
+	margin-left:11px;
+	margin-top:6px;
+}
+.pbuttons.light,.lpbuttons.light,.apbuttons.light,.obuttons.light,.bbuttons.light
+{
+	opacity:0.4;
+	cursor:auto;
+}
+.pbuttons.selected,.lpbuttons.selected,.apbuttons.selected,.obuttons.selected,.bbuttons.selected
+{
+	border:2px solid #CCCCCC;
+}
+.more
+{
+	cursor:pointer;
+	font-family: 'Berlin', Fallback, sans-serif;
+	font-size:13px;
+	margin-top:7px;
+	margin-right:48px;
+	color:#999999;
+	font-weight:500;
+	float:right;
+	text-decoration:underline;
+}
+.imgcontainer
+{
+	position:absolute;
+	top:calc(50% + 5px);
+	top:-webkit-calc(50% + 5px);
+	top:-moz-calc(50% + 5px);
+	right:calc(50% + 130px);
+	right:-webkit-calc(50% + 130px);
+	right:-moz-calc(50% + 130px);
+	width:275px;
+	height:275px;
+	border:3px solid #CCCCCC;
+	border-radius:12px;
+}
+.webportfolio,.logoportfolio,.artportfolio,.otherportfolio,.bannerportfolio
+{
+	display:none;
+}
+.webportfolio.default,.logoportfolio.default,.artportfolio.default,.otherportfolio.default,.bannerportfolio.default
+{
+	background-size:275px 275px !important;
+	width:275px;
+	height:275px;
+	background-repeat:no-repeat;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	border-radius:9px;
+}
+}
+
+@media screen and (min-width:1025px) and (max-width: 1399px) {
+.PortfolioRect
+{
+	position:absolute;
+	display:block;
+	width:180px;
+	height:180px;
+	background-color:#77EAA8;
+	z-index:97;
+}
+.PortfolioRect#web
+{
+	margin-top:150px;
+}
+.PortfolioRect#logo
+{
+	background-color:#99ccff;
+	margin-top:370px;
+}
+.PortfolioRect#book
+{
+	margin-top:150px;
+}
+.PortfolioRect#banner
+{
+	background-color:#99ccff;
+	margin-top:370px;
+}
+.PortfolioRect#others
+{
+	background-color:#ff6666;
+	width:420px;
+	height:90px;
+}
+.portfolioCircles
+{
+	position:absolute;
+	display:block;
+	width:150px;
+	height:180px;
+	z-index:95;
+	background-color: #dedede;
+	background-repeat: repeat-x;
+		 
+    /* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#dedede));
+	
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #ffffff, #dedede);
+	
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #ffffff, #dedede);
+	
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #ffffff, #dedede);
+	
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #ffffff, #dedede);
+}
+.portfolioCircles#webC
+{
+	border-radius:0px 145px 145px 0px;
+	margin-top:150px;
+}
+.portfolioCircles#logoC
+{
+	border-radius:145px 0px 0px 145px;
+	margin-top:370px;
+}
+.portfolioCircles#bookC
+{
+	border-radius:145px 0px 0px 145px;
+	margin-top:150px;
+}
+.portfolioCircles#bannerC
+{
+	border-radius:0px 145px 145px 0px;
+	margin-top:370px;
+}
+.portfolioCircles#othersC
+{
+	border-radius:455px 455px 0px 0px;
+	width:420px;
+	height:90px;
+}
+#displayImage
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:110px;
+	background-image:url(../images/greaterthan900px/thumbnail/web_airfares.jpg);
+	background-size:367px 367px;
+	background-repeat:no-repeat;
+	width:370px;
+	height:370px;
+	border:3px solid #CCCCCC;
+}
+.portfolioText
+{
+	cursor:pointer;
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:30px;
+	color:#333333;
+	position:absolute;
+	z-index:99;
+}
+.portfolioText.web
+{
+	top:224px;
+}
+.portfolioText.logo
+{
+	top:443px;
+}
+#topMargin
+{
+  z-index:51;
+  left:0 !important;
+  right:0 !important;
+  top:70px !important;
+  position:absolute;
+  width:100%;
+  height:27px;
+	 /* fallback */
+  background-color: #1a82f7;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdddd), to(#969494));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #dfdddd, #969494);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #dfdddd, #969494);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #dfdddd, #969494);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #dfdddd, #969494);
+}
+#PmidContent
+{
+  z-index:50;
+  top:0 !important;
+  left:0 !important;
+  right:0 !important;
+  position:absolute;
+  width:100%;
+  height:100%;
+  /* fallback */
+  background-color:#333333;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, right, left, from(#080809), color-stop(0.62, #242424),color-stop(0.85, #2f2e2e ),to(#2f2e2e ));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* IE 10 */
+  background: -ms-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+}
+.mainicon
+{
+	position:absolute;
+	top:calc(50% - 65px);
+	top:-webkit-calc(50% - 65px);
+	top:-moz-calc(50% - 65px);
+	right:calc(50% - 220px);
+	right:-webkit-calc(50% - 220px);
+	right:-moz-calc(50% - 220px);
+	width:230px;
+	height:230px;
+}
+.picons:hover
+{
+	cursor:pointer;
+}
+.subicon1
+{
+	position:absolute;
+	top:calc(50% - 255px);
+	top:-webkit-calc(50% - 255px);
+	top:calc(50% - 255px);
+	right:calc(50% - 255px);
+	right:-webkit-calc(50% - 255px);
+	right:-moz-calc(50% - 255px);
+	width:165px;
+	height:165px;
+}
+.subicon2
+{
+	position:absolute;
+	top:calc(50% - 165px);
+	top:-webkit-calc(50% - 165px);
+	top:-moz-calc(50% - 165px);
+	right:calc(50% - 440px);
+	right:-webkit-calc(50% - 440px);
+	right:-moz-calc(50% - 440px);
+	width:185px;
+	height:185px;
+}
+.subicon3
+{
+	position:absolute;
+	top:calc(50% + 30px);
+	top:-webkit-calc(50% + 30px);
+	top:-moz-calc(50% + 30px);
+	right:calc(50% - 480px);
+	right:-webkit-calc(50% - 480px);
+	right:-moz-calc(50% - 480px);
+	width:200px;
+	height:200px;
+}
+.subicon4
+{
+	position:absolute;
+	top:calc(50% + 145px);
+	top:-webkit-calc(50% + 145px);
+	top:-moz-calc(50% + 145px);
+	right:calc(50% - 305px);
+	right:-webkit-calc(50% - 305px);
+	right:-moz-calc(50% - 305px);
+	width:205px;
+	height:205px;
+}
+.buttoncontainer
+{
+	position:absolute;
+	top:calc(50% - 225px);
+	top:-webkit-calc(50% - 225px);
+	top:-moz-calc(50% - 225px);
+	right:calc(50% + 155px);
+	right:-webkit-calc(50% + 155px);
+	right:-moz-calc(50% + 155px);
+	width:305px;
+	height:295px;
+}
+.pbuttons,.lpbuttons,.apbuttons,.obuttons,.bbuttons
+{
+	background:url(../images/greaterthan900px/portfoliobutton.png);
+	display:inline-block;
+	float:left;
+	background-size:45px 45px;
+	margin-left:8px;
+	margin-top:8px;
+	border:2px solid #2f2e2e; 
+	cursor:pointer;
+	color:#FFFFFF;
+	width:45px;
+	height:45px;
+}
+.pbuttons span,.lpbuttons span,.apbuttons span,.obuttons span,.bbuttons span
+{
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:22px;
+	display:inline-block;
+	margin-left:18px;
+	margin-top:10px;
+}
+.pbuttons.twodigit span,.lpbuttons.twodigit span,.apbuttons.twodigit span,.obuttons.twodigit span,.bbuttons.twodigit span
+{
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:22px;
+	display:inline-block;
+	margin-left:14px;
+	margin-top:10px;
+}
+.pbuttons.light,.lpbuttons.light,.apbuttons.light,.obuttons.light,.bbuttons.light
+{
+	opacity:0.4;
+	cursor:auto;
+}
+.pbuttons.selected,.lpbuttons.selected,.apbuttons.selected,.obuttons.selected,.bbuttons.selected
+{
+	border:2px solid #CCCCCC;
+}
+.more
+{
+	cursor:pointer;
+	font-family: 'Berlin', Fallback, sans-serif;
+	font-size:14px;
+	margin-top:8px;
+	margin-right:21px;
+	color:#999999;
+	font-weight:500;
+	float:right;
+	text-decoration:underline;
+}
+.imgcontainer
+{
+	position:absolute;
+	top:calc(50% + 15px);
+	top:-webkit-calc(50% + 15px);
+	top:-moz-calc(50% + 15px);
+	right:calc(50% + 150px);
+	right:-webkit-calc(50% + 150px);
+	right:-moz-calc(50% + 150px);
+	width:315px;
+	height:315px;
+	border:3px solid #CCCCCC;
+	border-radius:12px;
+}
+.webportfolio,.logoportfolio,.artportfolio,.otherportfolio,.bannerportfolio
+{
+	display:none;
+}
+.webportfolio.default,.logoportfolio.default,.artportfolio.default,.otherportfolio.default,.bannerportfolio.default
+{
+	display:inline-block;
+	background-size:315px 315px !important;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	color:#FFFFFF;
+	width:315px;
+	height:315px;
+	border-radius:9px;
+}
+}
+
+@media screen and (min-width: 1400px) {
+.PortfolioRect
+{
+	position:absolute;
+	display:block;
+	width:210px;
+	height:210px;
+	background-color:#77EAA8;
+	z-index:97;
+}
+.PortfolioRect#web
+{
+	margin-top:180px;
+	border-radius:120px 0px 0px 0px;
+	-moz-border-radius: 120px 0px 0px 0px;
+	-webkit-border-radius: 120px 0px 0px 0px;
+	z-index:99;
+}
+.PortfolioRect#logo
+{
+	background-color:#99ccff;
+	margin-top:440px;
+}
+.PortfolioRect#book
+{
+	margin-top:180px;
+}
+.PortfolioRect#banner
+{
+	background-color:#99ccff;
+	margin-top:440px;
+}
+.PortfolioRect#others
+{
+	background-color:#ff6666;
+	width:460px;
+	height:110px;
+}
+.portfolioCircles
+{
+	position:absolute;
+	display:block;
+	width:180px;
+	height:210px;
+	z-index:95;
+	background-color: #dedede;
+	background-repeat: repeat-x;
+		 
+    /* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffffff), to(#dedede));
+	
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #ffffff, #dedede);
+	
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #ffffff, #dedede);
+	
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #ffffff, #dedede);
+	
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #ffffff, #dedede);
+}
+.portfolioCircles#webC
+{
+	border-radius:0px 175px 175px 0px;
+	margin-top:180px;
+}
+.portfolioCircles#logoC
+{
+	border-radius:175px 0px 0px 175px;
+	margin-top:440px;
+}
+.portfolioCircles#bookC
+{
+	border-radius:175px 0px 0px 175px;
+	margin-top:180px;
+}
+.portfolioCircles#bannerC
+{
+	border-radius:0px 175px 175px 0px;
+	margin-top:440px;
+}
+.portfolioCircles#othersC
+{
+	border-radius:455px 455px 0px 0px;
+	width:460px;
+	height:110px;
+}
+#displayImage
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:130px;
+	background-image:url(../images/greaterthan900px/thumbnail/web_airfares.jpg);
+	background-size:420px 420px;
+	background-repeat:no-repeat;
+	width:425px;
+	height:425px;
+	border:5px solid #CCCCCC;
+}
+.portfolioText
+{
+	cursor:pointer;
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:35px;
+	color:#333333;
+	position:absolute;
+	z-index:99;
+}
+.portfolioText.web
+{
+	top:263px;
+}
+.portfolioText.logo
+{
+	top:518px;
+}
+.PortfolioRect.rect#web
+{
+	z-index:95;
+	background-color:#009999;
+	border-radius:0px 0px 0px 0px;
+}
+.viewall
+{
+	color:#FFFFFF;
+	font-family:'Majalla', Fallback, Arial;
+	font-size:22px;	
+	display:inline-block;
+	padding-top:11px;
+	padding-left:0px;
+	font-variant:small-caps;
+	-ms-transform: rotate(-42deg); /* IE 9 */
+    -webkit-transform: rotate(-42deg); /* Chrome, Safari, Opera */
+    transform: rotate(-42deg);
+}
+.thumbnailImage
+{
+	cursor:pointer;
+	z-index:-99;
+	margin-top:60px;
+	margin-left:10px;
+	background-image:url(../images/greaterthan900px/thumbnail/small/web_airfares.jpg);
+	background-size:199px 70px;
+	background-repeat:no-repeat;
+	width:200px;
+	height:71px;
+	display:inline-block;
+	border:1px solid #CCCCCC;
+}
+#topMargin
+{
+  z-index:51;
+  left:0 !important;
+  right:0 !important;
+  top:80px !important;
+  position:absolute;
+  width:100%;
+  height:30px;
+	 /* fallback */
+  background-color: #1a82f7;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdddd), to(#969494));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #dfdddd, #969494);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #dfdddd, #969494);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #dfdddd, #969494);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #dfdddd, #969494);
+}
+#PmidContent
+{
+  z-index:50;
+  top:0 !important;
+  left:0 !important;
+  right:0 !important;
+  position:absolute;
+  width:100%;
+  height:100%;
+  /* fallback */
+  background-color:#333333;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, right, left, from(#080809), color-stop(0.62, #242424),color-stop(0.85, #2f2e2e ),to(#2f2e2e ));
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* IE 10 */
+  background: -ms-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(right, #080809,#242424 62%,#2f2e2e 85%,#2f2e2e);
+}
+.mainicon
+{
+	position:absolute;
+	top:calc(50% - 95px);
+	top:-webkit-calc(50% - 95px);
+	top:-moz-calc(50% - 95px);
+	right:calc(50% - 250px);
+	right:-webkit-calc(50% - 250px);
+	right:-moz-calc(50% - 250px);
+	width:250px;
+	height:250px;
+}
+.picons:hover
+{
+	cursor:pointer;
+}
+.subicon1
+{
+	position:absolute;
+	top:calc(50% - 335px);
+	top:-webkit-calc(50% - 335px);
+	top:calc(50% - 335px);
+	right:calc(50% - 305px);
+	right:-webkit-calc(50% - 305px);
+	right:-moz-calc(50% - 305px);
+	width:175px;
+	height:175px;
+}
+.subicon2
+{
+	position:absolute;
+	top:calc(50% - 185px);
+	top:-webkit-calc(50% - 185px);
+	top:-moz-calc(50% - 185px);
+	right:calc(50% - 480px);
+	right:-webkit-calc(50% - 480px);
+	right:-moz-calc(50% - 480px);
+	width:195px;
+	height:195px;
+}
+.subicon3
+{
+	position:absolute;
+	top:calc(50% + 30px);
+	top:-webkit-calc(50% + 30px);
+	top:-moz-calc(50% + 30px);
+	right:calc(50% - 525px);
+	right:-webkit-calc(50% - 525px);
+	right:-moz-calc(50% - 525px);
+	width:215px;
+	height:215px;
+}
+.subicon4
+{
+	position:absolute;
+	top:calc(50% + 185px);
+	top:-webkit-calc(50% + 185px);
+	top:-moz-calc(50% + 185px);
+	right:calc(50% - 355px);
+	right:-webkit-calc(50% - 355px);
+	right:-moz-calc(50% - 355px);
+	width:235px;
+	height:235px;
+}
+.buttoncontainer
+{
+	position:absolute;
+	top:calc(50% - 285px);
+	top:-webkit-calc(50% - 285px);
+	top:-moz-calc(50% - 285px);
+	right:calc(50% + 175px);
+	right:-webkit-calc(50% + 175px);
+	right:-moz-calc(50% + 175px);
+	width:345px;
+	height:335px;
+}
+.pbuttons,.lpbuttons,.apbuttons,.obuttons,.bbuttons
+{
+	background:url(../images/greaterthan900px/portfoliobutton.png);
+	display:inline-block;
+	float:left;
+	background-size:55px 55px;
+	margin-left:10px;
+	margin-top:10px;
+	border:2px solid #2f2e2e; 
+	cursor:pointer;
+	color:#FFFFFF;
+	width:55px;
+	height:55px;
+}
+.pbuttons span,.lpbuttons span,.apbuttons span,.obuttons span,.bbuttons span
+{
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:26px;
+	display:inline-block;
+	margin-left:21px;
+	margin-top:12px;
+}
+.pbuttons.twodigit span,.lpbuttons.twodigit span,.apbuttons.twodigit span,.obuttons.twodigit span,.bbuttons.twodigit span
+{
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:26px;
+	display:inline-block;
+	margin-left:16px;
+	margin-top:12px;
+}
+.pbuttons.light,.lpbuttons.light,.apbuttons.light,.obuttons.light,.bbuttons.light
+{
+	opacity:0.4;
+	cursor:auto;
+}
+.pbuttons.selected,.lpbuttons.selected,.apbuttons.selected,.obuttons.selected,.bbuttons.selected
+{
+	border:2px solid #CCCCCC;
+}
+.more
+{
+	cursor:pointer;
+	font-family: 'Berlin', Fallback, sans-serif;
+	font-size:16px;
+	margin-top:10px;
+	margin-right:10px;
+	color:#999999;
+	font-weight:500;
+	float:right;
+	text-decoration:underline;
+}
+.imgcontainer
+{
+	position:absolute;
+	top:calc(50% + 25px);
+	top:-webkit-calc(50% + 25px);
+	top:-moz-calc(50% + 25px);
+	right:calc(50% + 160px);
+	right:-webkit-calc(50% + 160px);
+	right:-moz-calc(50% + 160px);
+	width:365px;
+	height:375px;
+	border:4px solid #CCCCCC;
+	border-radius:15px;
+}
+.webportfolio,.logoportfolio,.artportfolio,.otherportfolio,.bannerportfolio
+{
+	display:none;
+}
+.webportfolio.default,.logoportfolio.default,.artportfolio.default,.otherportfolio.default,.bannerportfolio.default
+{
+	display:inline-block;
+	background-size:365px 375px !important;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	color:#FFFFFF;
+	width:365px;
+	height:375px;
+	border-radius:10px;
+}
+}

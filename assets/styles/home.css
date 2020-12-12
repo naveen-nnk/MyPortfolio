@@ -1,0 +1,462 @@
+@font-face {
+  font-family: 'Majalla';
+  src: url('../fonts/majalla-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/majalla-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/majalla-webfont.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/majalla-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/majalla-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Berlin';
+  src: url('../fonts/brlnsr.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/brlnsr.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/brlnsr.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/brlnsr.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/brlnsr.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@media screen and (max-width: 1024px) {
+#topLoader
+{
+  z-index:51;
+  top:0 !important;
+  left:0 !important;
+  right:0 !important;
+  position:absolute;
+  height:2px;
+  width:100%;
+  margin-top:50px;
+	/* fallback */
+  background-color: #99FFFF;
+}
+#logoLoaderfg.logoLoader
+{
+	position:absolute;
+	z-index:53;
+	background-image:url(../images/lessthan720px/loaderlogo.png);
+	background-repeat:no-repeat;
+	width:119px;
+	height:200px;
+}
+#logoLoaderbg.logoLoader
+{
+	position:absolute;
+	z-index:51;
+	background-image:url(../images/lessthan720px/loaderlogo.png);
+	background-repeat:no-repeat;
+	width:119px;
+	height:200px;
+	opacity:0.06;
+}
+#textContent
+{
+	background-image:url(../images/lessthan720px/text.png);
+	background-repeat:no-repeat;
+	width:544px;
+	height:87px;
+}
+#runningPixels
+{
+	opacity:0.5;
+	left:0 !important;
+    right:0 !important;
+    bottom:14px !important;
+	position:absolute;
+	z-index:96;
+	background-image:url(../images/greaterthan900px/bottompixels.png);
+	background-repeat:repeat-x;
+	height:75px;
+	width:100%;
+}
+#buttons .portfolio
+{
+	cursor:pointer;
+	z-index:97;
+	margin-top:22px;
+	position:absolute;
+	background-image:url(../images/lessthan720px/button1.png);
+	background-repeat:no-repeat;
+	width:182px;
+	height:42px;
+}
+#buttons .contact
+{
+	cursor:pointer;
+	z-index:97;
+	position:absolute;
+	margin-top:22px;
+	background-image:url(../images/lessthan720px/button2.png);
+	background-repeat:no-repeat;
+	width:182px;
+	height:42px;
+}
+.nav.right
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:80px;
+	right:35px;
+	background-image:url(../images/lessthan720px/rightnav.png);
+	background-repeat:no-repeat;
+	width:24px;
+	height:23px;
+}
+.nav.left
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:80px;
+	margin-left:35px;
+	background-image:url(../images/lessthan720px/leftnav.png);
+	background-repeat:no-repeat;
+	width:24px;
+	height:23px;
+}
+.nav.bottom
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	background-image:url(../images/lessthan720px/button3.png);
+	background-repeat:no-repeat;
+	width:200px;
+	height:46px;
+}
+.navText
+{
+	position:absolute;
+	display:inline-block;
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:14px;
+	color:black;
+}
+.navText.right
+{
+	margin-top:60px;
+	right:26px;
+	color:black;
+}
+.navText.left
+{
+	margin-top:60px;
+	float:left;
+	margin-left:26px;
+	color:black;
+}
+.navText.bottom
+{
+	text-align:center;
+	width:200px;
+	bottom:60px !important;
+	color:white;
+}
+#preLoader
+{
+	font-family: "Comic Sans MS", cursive;
+	font-size:65px;
+	color:#0099CC;
+	z-index:99;
+	position:absolute;
+}
+}
+
+@media screen and (min-width:1025px) and (max-width: 1399px) {
+#topLoader
+{
+  z-index:51;
+  top:0 !important;
+  left:0 !important;
+  right:0 !important;
+  position:absolute;
+  height:3px;
+  width:100%;
+  margin-top:70px;
+	/* fallback */
+  background-color: #99FFFF;
+}
+#logoLoaderfg.logoLoader
+{
+	position:absolute;
+	z-index:53;
+	background-image:url(../images/lessthan900px/loaderlogo.png);
+	background-repeat:no-repeat;
+	width:142px;
+	height:240px;
+}
+#logoLoaderbg.logoLoader
+{
+	position:absolute;
+	z-index:51;
+	background-image:url(../images/lessthan900px/loaderlogo.png);
+	background-repeat:no-repeat;
+	width:142px;
+	height:240px;
+	opacity:0.06;
+}
+#textContent
+{
+	background-image:url(../images/lessthan900px/text.png);
+	background-repeat:no-repeat;
+	width:624px;
+	height:100px;
+}
+#runningPixels
+{
+	opacity:0.5;
+	left:0 !important;
+    right:0 !important;
+    bottom:17px !important;
+	position:absolute;
+	z-index:96;
+	background-image:url(../images/greaterthan900px/bottompixels.png);
+	background-repeat:repeat-x;
+	height:90px;
+	width:100%;
+}
+#buttons .portfolio
+{
+	cursor:pointer;
+	z-index:97;
+	margin-top:30px;
+	position:absolute;
+	background-image:url(../images/lessthan720px/button1.png);
+	background-repeat:no-repeat;
+	width:214px;
+	height:49px;
+}
+#buttons .contact
+{
+	cursor:pointer;
+	z-index:97;
+	position:absolute;
+	margin-top:30px;
+	background-image:url(../images/lessthan720px/button2.png);
+	background-repeat:no-repeat;
+	width:214px;
+	height:49px;
+}
+.nav.right
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:100px;
+	right:35px;
+	background-image:url(../images/lessthan900px/rightnav.png);
+	background-repeat:no-repeat;
+	width:29px;
+	height:29px;
+}
+.nav.left
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:100px;
+	margin-left:35px;
+	background-image:url(../images/lessthan900px/leftnav.png);
+	background-repeat:no-repeat;
+	width:29px;
+	height:29px;
+}
+.nav.bottom
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	background-image:url(../images/lessthan900px/button3.png);
+	background-repeat:no-repeat;
+	width:225px;
+	height:53px;
+}
+.navText
+{
+	position:absolute;
+	display:inline-block;
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:18px;
+	color:black;
+}
+.navText.right
+{
+	margin-top:78px;
+	right:23px;
+	color:black;
+}
+.navText.left
+{
+	margin-top:78px;
+	float:left;
+	margin-left:23px;
+	color:black;
+}
+.navText.bottom
+{
+	text-align:center;
+	width:200px;
+	bottom:67px !important;
+	color:white;
+}
+#preLoader
+{
+	font-family: "Comic Sans MS", cursive;
+	font-size:100px;
+	color:#0099CC;
+	z-index:99;
+	position:absolute;
+}
+}
+
+@media screen and (min-width: 1400px) {
+#topLoader
+{
+  z-index:51;
+  top:0 !important;
+  left:0 !important;
+  right:0 !important;
+  position:absolute;
+  height:4px;
+  width:100%;
+  margin-top:80px;
+	/* fallback */
+  background-color: #99FFFF;
+
+}
+#logoLoaderfg.logoLoader
+{
+	position:absolute;
+	z-index:53;
+	background-image:url(../images/greaterthan900px/loaderlogo.png);
+	background-repeat:no-repeat;
+	background-size:163px 290px;
+	width:163px;
+	height:290px;
+}
+#logoLoaderbg.logoLoader
+{
+	position:absolute;
+	z-index:51;
+	background-image:url(../images/greaterthan900px/loaderlogo.png);
+	background-repeat:no-repeat;
+	background-size:163px 290px;
+	width:163px;
+	height:290px;
+	opacity:0.06;
+}
+#textContent
+{
+	background-image:url(../images/greaterthan900px/text.png);
+	background-repeat:no-repeat;
+	width:774px;
+	height:124px;
+}
+#runningPixels
+{
+	opacity:0.5;
+	left:0 !important;
+    right:0 !important;
+    bottom:20px !important;
+	position:absolute;
+	z-index:96;
+	background-image:url(../images/greaterthan900px/bottompixels.png);
+	background-repeat:repeat-x;
+	height:103px;
+	width:100%;
+}
+#buttons .portfolio
+{
+	cursor:pointer;
+	z-index:97;
+	margin-top:30px;
+	position:absolute;
+	background-image:url(../images/greaterthan900px/button1.png);
+	background-repeat:no-repeat;
+	width:246px;
+	height:56px;
+}
+#buttons .contact
+{
+	cursor:pointer;
+	z-index:97;
+	position:absolute;
+	margin-top:30px;
+	background-image:url(../images/greaterthan900px/button2.png);
+	background-repeat:no-repeat;
+	width:246px;
+	height:56px;
+}
+.nav.right
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:120px;
+	right:35px;
+	background-image:url(../images/greaterthan900px/rigthnav.png);
+	background-repeat:no-repeat;
+	width:34px;
+	height:34px;
+}
+.nav.left
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	margin-top:120px;
+	margin-left:35px;
+	background-image:url(../images/greaterthan900px/leftnav.png);
+	background-repeat:no-repeat;
+	width:34px;
+	height:34px;
+}
+.nav.bottom
+{
+	cursor:pointer;
+	z-index:98;
+	position:absolute;
+	background-image:url(../images/greaterthan900px/button3_blue.png);
+	background-repeat:no-repeat;
+	width:264px;
+	height:61px;
+}
+.navText
+{
+	position:absolute;
+	display:inline-block;
+	font-family: 'Majalla', Fallback, sans-serif;
+	font-size:22px;
+	color:black;
+}
+.navText.right
+{
+	margin-top:90px;
+	right:20px;
+	color:black;
+}
+.navText.left
+{
+	margin-top:90px;
+	float:left;
+	margin-left:20px;
+	color:black;
+}
+.navText.bottom
+{
+	text-align:center;
+	width:200px;
+	bottom:70px !important;
+	color:white;
+}
+#preLoader
+{
+	font-family: "Comic Sans MS", cursive;
+	font-size:135px;
+	color:#0099CC;
+	z-index:99;
+	position:absolute;
+	right:500px;
+	top:200px;
+}
+}
